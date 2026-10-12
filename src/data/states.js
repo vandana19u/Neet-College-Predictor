@@ -1,0 +1,47 @@
+export const indianStates = [
+  "Andhra Pradesh",
+  "Arunachal Pradesh",
+  "Assam",
+  "Bihar",
+  "Chhattisgarh",
+  "Chandigarh",
+  "Delhi",
+  "Goa",
+  "Gujarat",
+  "Haryana",
+  "Himachal Pradesh",
+  "Jammu & Kashmir",
+  "Jharkhand",
+  "Karnataka",
+  "Kerala",
+  "Ladakh",
+  "Madhya Pradesh",
+  "Maharashtra",
+  "Manipur",
+  "Meghalaya",
+  "Mizoram",
+  "Nagaland",
+  "Odisha",
+  "Puducherry",
+  "Punjab",
+  "Rajasthan",
+  "Sikkim",
+  "Tamil Nadu",
+  "Telangana",
+  "Tripura",
+  "Uttar Pradesh",
+  "Uttarakhand",
+  "West Bengal",
+  "Andaman & Nicobar Islands",
+  "Dadra & Nagar Haveli and Daman & Diu"
+];
+
+export const categories = [
+  { id: 'UR', label: 'General (UR)', badge: 'Open' },
+  { id: 'OBC', label: 'OBC-NCL', badge: 'OBC Quota' },
+  { id: 'EWS', label: 'General-EWS', badge: '10% EWS' },
+  { id: 'SC', label: 'SC (Scheduled Caste)', badge: '15% SC' },
+  { id: 'ST', label: 'ST (Scheduled Tribe)', badge: '7.5% ST' },
+];
+
+export default indianStates;
